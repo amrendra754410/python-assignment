@@ -1,0 +1,16 @@
+import math
+x1=float(input("Enter the value of x1: "))
+y1=float(input("Enter the value of y1: "))
+x2=float(input("Enter the value of x2: "))
+y2=float(input("Enter the value of y2: "))
+x3=float(input("Enter the value of x3: "))
+y3=float(input("Enter the value of y3: "))
+temp1 = ((x2-x1)*(x2-x1))-((y2-y1)*(y2-y1))
+temp2 = ((x3-x2)*(x3-x2))-((y3-y2)*(y3-y2))
+temp3 = ((x1-x3)*(x1-x3))-((y1-y3)*(y1-y3))
+side1=math.sqrt(temp1)
+side2=math.sqrt(temp2)
+side3=math.sqrt(temp3)
+s=(side1+side2+side3)/2
+area=math.sqrt(s*(s-side1)*(s-side2)*(s-side3))
+print(area)
