@@ -17,3 +17,6 @@ total_prob_2reball=prob1_Red*prob2_Red
 print("Probability of drowing 2 red ball: ",total_prob_2reball)
 
 
+
+
+

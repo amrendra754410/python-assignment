@@ -6,4 +6,4 @@ for i in range(1000):
     if(roll==6):
         six +=1
 
-print("probabilty of 6: ",six)
+print("probabilty of 6: ",six/1000)
