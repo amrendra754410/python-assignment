@@ -20,7 +20,7 @@ y1=6-z-x
 y2=z+x-2
 y3=3+z-2*x
 
-ax.plot_surface(x,z,y1)
+ax.plot_surface(x,z,y1) 
 ax.plot_surface(x,z,y2)
 ax.plot_surface(x,z,y3)
 
