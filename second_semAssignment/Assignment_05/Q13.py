@@ -8,8 +8,8 @@ print(f"x={solve[0]} y={solve[1]} z={solve[2]}")
 
 
 inv=np.linalg.inv(e1)
-det=np.linalg.det(e1)
-prod=np.dot(inv,s)
+# det=np.linalg.det(e1)
+prod=np.dot(inv,s)  
 print(f"x={prod[0]} y={prod[1]} z={prod[2]}")
 
 

@@ -7,7 +7,7 @@ import pandas as pd
 
 # Create simple employee data
 data = {
-    "EmployeeID":[1,2,3,4,5,6],
+    "EmployeeID":[1,2,3,4,5],
     "Name": ["Alice", "Bob", "Charlie", "David", "Eve"],
     "Department": ["IT", "HR", "IT", "Finance", "HR"],
     "Salary": [50000, 45000, 55000, 60000, 47000]

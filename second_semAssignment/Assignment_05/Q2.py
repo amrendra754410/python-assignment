@@ -6,7 +6,7 @@
 
 import numpy as np
 import matplotlib.pyplot as plt
-# from mpl_toolkits.mplot3d import Axes3D as ax
+from mpl_toolkits.mplot3d import Axes3D as ax
 
 a=np.array([[1,1,1],[1,-1,1],[2,1,-1]])
 b=np.array([6,2,3])
